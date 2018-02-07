@@ -1,9 +1,9 @@
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from '@/components/HelloWorld/HelloWorld'; // @ is an alias to /src
+import Login from '@/components/Login/Login';
 
 @Component({
   components: {
-    HelloWorld,
+    Login,
   },
 })
 export default class Home extends Vue {}
