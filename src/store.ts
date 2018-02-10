@@ -25,7 +25,6 @@ export default new Vuex.Store({
   },
   actions: {
      login({ commit }, creds) {
-       console.log('hola');
        commit(LOGIN); // show spinner
        return new Promise(resolve => {
          setTimeout(() => {
